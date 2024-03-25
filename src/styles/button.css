@@ -1,0 +1,48 @@
+.btn {
+    border: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnBlack {
+    padding: 0;
+    background-color: transparent;
+}
+
+.btnBrand {
+    background-color: var(--primary-color);
+    padding: 0;
+    border-radius: .775rem;
+    width: 6.25rem;
+    height: 2.0625rem;
+    flex-shrink: 0;
+}
+
+.btnBrand:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.btnProject {
+    padding: .625rem 0;
+    width: max-content;
+    height: 1.875rem;
+}
+
+.aboutMeButton {
+    color: var(--primary-color);
+    font-size: var(--paragraph);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+.buttonText {
+    color: var(--white);
+    font-size: var(--label);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}

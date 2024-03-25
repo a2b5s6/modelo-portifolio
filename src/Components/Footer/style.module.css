@@ -1,0 +1,43 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.25rem;
+    width: 80%;
+    height: 13.5rem;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto 1.25rem auto;
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+    background: #181818;
+}
+
+.contactConteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    padding-bottom: 1.25rem;
+}
+
+.buttonConteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonConteiner>img {
+    cursor: pointer;
+}
+
+@media (min-width: 761px) {
+    .flexbox {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60vw;
+        max-width: 100%;
+        margin: 0 20%;
+    }
+}

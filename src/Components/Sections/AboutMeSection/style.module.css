@@ -1,0 +1,6 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.875rem;
+}

@@ -1,0 +1,40 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+}
+
+.techList {
+    cursor: pointer;
+    display: flex;
+    margin: 0 10px;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.techCard {
+    display: flex;
+    width: 80%;
+    height: 5.375rem;
+    align-items: center;
+    gap: 1.875rem;
+    padding-left: 2.5rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+@media (min-width: 761px) {
+    .techList {
+        width: 90vw;
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .techCard {
+        width: 30%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding-left: 1.25rem;
+    }
+}

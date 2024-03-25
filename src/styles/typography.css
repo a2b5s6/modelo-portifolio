@@ -1,0 +1,40 @@
+.usernameText {
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-size: var(--link);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title1 {
+    color: var(--white);
+    font-size: var(--title1);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.paragraph {
+    color: var(--white);
+    font-size: var(--paragraph);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.title2 {
+    color: var(--white);
+    font-size: var(--title2);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title3 {
+    color: var(--white);
+    font-size: var(--title3);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
